@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; L'origine du Big Bang. : Le bar</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '10';
+var base_url = 'http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651.html';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Mer 24 Nov 2010 05:34</span>
+<span class="right">Nous sommes le Mer 24 Nov 2010 05:34</span>
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p>
+<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651.html">L'origine du Big Bang.</a></h2>
+
+	<p class="moderators">Modérateur: oneil7</p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 11 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 0 0 2px 0;">
+	<tr>
+		<td class="cat" style="text-align: center;">
+			<table cellspacing="0" style="margin: auto;">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+				<td class="nav" align="right" nowrap="nowrap">			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+			<tr>
+			<th>Auteur</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21651"></a>
+				<b class="postauthor">Sheppard</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 15:13&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 16 Nov 2010 16:52<br /><b>Messages:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Salut a tous <img src="./images/smilies/icon_razz.gif" alt=":P" title="Tire la langue" /> <br />( attention je spoil un peu ^^)<br />Voila, j'ai une question. D'après vous, le Destiny se dirige vers le lieu d'origine du Big Bang a ce que j'ai compris. Les Anciens qui ont envoyé le vaisseaux pensaient rentrer e contacte avec eux... Pensez vous que ce soit les Aliens ayant créé le système solaire qui soit a l'origine de tous ça?? <br />Non parcequ'ils me semblent un peu louche ceux la !! Déjà il décide d'aider ceux qui sont restés sur la planète avec l'obélisque en leurs offrant des maisons, puis ils récupèrent le bébé de T.J et maintenant ils renvoient tous ce petit monde sur le Destiny en en tuant certains après coup... Alors soit ils ont un plan beaucoup plus grand pour les naufragés du Destiny ... Soit ils sont complètement bipolaire a tendance schizo' sur les bords.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sheppard-u1471.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21661"></a>
+				<b class="postauthor">time2fly</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 16:56&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=92_1260039548.jpg" width="115" height="116" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 12 Nov 2009 16:55<br /><b>Messages:</b> 128				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">j'ai compris plus ou moins la même chose que toi, c'est à dire plutot vers la continuité du big bang originel qui permet l'extension de l'univers, la ou ils pensent retrouver les être ayant créé l'univers comme ont le connais.<br /><br />pour ce qui est de naufragé, je pense que ce ne sont pas les aliens ayant fait l'univers, mais une autre race. et s'ils les ont ramené sur le Destiny, peut être est ce parce qu'il représente un avenir avec de meilleurs chance.</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.replikultes.net/medias/uploads/films/stargate/stargate_02.jpg" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/time2fly-u92.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21671"></a>
+				<b class="postauthor">djinnel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 17:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 15 Mai 2010 19:38<br /><b>Messages:</b> 30				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">salut,<br />alors deja , on se sait pas encore se qu'il c'est passer avec les habitant de la planete ideale, on le sera  mardi prochain donc pas de conclusion ative^^<br /><br />ensuite, le fait que les aliens leur ont fait des maisons et les ont aider, tous sa c T.J qui la rever, rien ne nous dit que sa c'est vraiment passer, de meme que pour son bébé,il est peut etre tout simplement mort!!<br />reponse mardi!!<br /><br />si les aliens les ont aider, on ne sait pas lequelle!!<br />se sont peut etre les petit gris et pas les petit bleu<br /><br />et le destiny ne va pas  sur le lieu d'origine du big bang, il le suit<br /><br />le big bang est expodentielle!!!<br /><br />il c former a un endroit  de l'univers et s'etend a l'infini en laissant derrière lui des ondes.<br />Ce sont ces ondes que le destiny suit car les capteur ont remarquer un obelisque derrière celle ci qui semble pas naturel donc creer par une race avance<br /><br />se qu'on peut penser, c'est que chaque planete que le destiny croisent sont de plus en plus jeune car il rattrape petit a petit le big bang d'ou sont systeme  de navigation supraluminique qui lui permet d'aller plus vite que la lumiere sans destination connu qui est differente de l'hyperespace traditionnel qu'on connait dans stargate ou une fenetre hyper spaciale est creer en choisissant un point d'arriver!<br /><br />pour resume, on ne sait encore rien des aliens  qui ne sont peut etre meme pas de cette galaxie actuelle puisque un vaisseau etait deja accroche au destiny au premier episode</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/djinnel-u631.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21701"></a>
+				<b class="postauthor">time2fly</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 18:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=92_1260039548.jpg" width="115" height="116" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 12 Nov 2009 16:55<br /><b>Messages:</b> 128				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">je suis d'accord avec toi djinnel, sauf sur le point du rêve de T.J. regarde la fin de l'épisode en question, sa laisse dubitatif lorsqu'elle voit la même nébuleuse (il me semble...) que dans sont rêve, étrange coïncidence non ?</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.replikultes.net/medias/uploads/films/stargate/stargate_02.jpg" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/time2fly-u92.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21711"></a>
+				<b class="postauthor">Sheppard</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 18:49&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 16 Nov 2010 16:52<br /><b>Messages:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ok, je vois ... Mais vu que le Big Bang est en expension perpétuel, comment le Destiny peut il le rattraper?? Enfin ça me semble un peu louche toute cette histoire. Il y a aussi ce message résiduel qui tourne en boucle ... Enfin moi j'y comprend rien !! xD<br /><br />De plus, pourquoi les aliens bleu s'intéressent ils autant a ce vaisseau ?? Ont ils le même objectif, ou veulent ils seulement le vaisseau pour le &quot;fun&quot; -___-<br />Mais aussi, les petits aliens coincé sur le vaisseau poseur de porte, je les soupçonnes d'être devenu copain copain avec Telford, ce qui permettrais de les revoir bientôt ( surement l'épisode de mi-saison qui se finira par une bataille spatial ). Peut-être sont ils aussi du même coté que ceux qui ont construit l'obélisque.<br />Enfin Bref, trop de mystères pour trop peu de réponses ... Je me sens un peu trop frustré !!! xD <br /><br />ps: Suis je le seul a trouver les aliens d' &quot;Awekning&quot; mignon??? Je me pose des questions... xD</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sheppard-u1471.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21721"></a>
+				<b class="postauthor">maxence</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 18 Nov 2010 19:37&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://c0658142.cdn.cloudfiles.rackspacecloud.com/043e1524ca89216b504f96f18dd57a27dcd8a709_96s.jpg" width="96" height="96" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 8 Juin 2010 15:34<br /><b>Messages:</b> 55<br /><b>Localisation:</b> albertville, savoie				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">je prend un expenple pour se qui ne sont pas trop fort en astrophysique ou en physique quantique: imagine que l'origine du big-bang et l'ouverture d'un ballon de baudruche (ou l'on souffle), au moment de l'explosion c'est comme si on gonflet le ballon,<br />on peut voir que le ballon grossi et que tout qui se trouve sur le ballon s'ecarte et grossi, ba la sais pareil, le but du destiny et de retourner a l'ouverture du ballon ou du big-bang<br /><br /><br /><br /><br /><br /><br /><br />Et pour le fait que les anciens on remarquer que dans les onde du big-bang il y a une signature inconnue a une explication, qui est relier a la <span style="text-decoration: underline"><strong>PHYSIQUE QUANTIQUE</strong></span> <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /> : <br />-la plus connu ou il y a eu une explosion et que sa grandi depuit se moment.<br />-un autre serai comme si elle &quot;rebondisser&quot; comme un ballon, elle arive au plus petit a se moment la elle commence a grandire, au moment ou elle est au plus haut elle se retressi et cela de façon interminable.<br />- et celle qui pour moi est la plus logique et qui et a 2 doigts d'etre prouver: le big-bang serai cree par la collision de 2 P-brane (menbrane qui separe les differante dimension) qui et normalement inpossible mais a se moment elle se sont toucher donc ceci a creer le BIG-BANG.<br /><br /><br />      PS: si vous ne comprenner pas dit le, je reexpliquerai plus clairement. <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" />  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" />  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" />  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /></div>
+
+											<span class="postbody"><br />_________________<br />continue bien votre voyage sur le detiny et bonne episode.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/maxence-u871.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21731"></a>
+				<b class="postauthor">time2fly</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 19 Nov 2010 00:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=92_1260039548.jpg" width="115" height="116" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 12 Nov 2009 16:55<br /><b>Messages:</b> 128				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">explication logique et interessante également.</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.replikultes.net/medias/uploads/films/stargate/stargate_02.jpg" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/time2fly-u92.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21861"></a>
+				<b class="postauthor">Ronnon</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 20 Nov 2010 00:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 20 Nov 2010 00:26<br /><b>Messages:</b> 1				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Et l'origine de l'orthographe tu connais? <img src="./images/smilies/icon_eek.gif" alt=":shock:" title="Choqué" /></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/ronnon-u1501.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21871"></a>
+				<b class="postauthor">Sheppard</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 20 Nov 2010 09:28&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 16 Nov 2010 16:52<br /><b>Messages:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody"><div class="quotetitle">Ronnon a écrit:</div><div class="quotecontent">Et l'origine de l'orthographe tu connais? <img src="./images/smilies/icon_eek.gif" alt=":shock:" title="Choqué" /></div><br /><br />Tu t'ennuis beaucoup toi pour être aussi relou non?? Enfin si c'est pour être désagréable c'est pas la peine ... ça va on écrit pas en Texto kikou lol !! <br /><br />ENFIN BREF !! Merci pour toutes ces explications, je n'avais pas tous saisie sur la mission du Destiny !! ( Oui Rush parle un peu trop vite! Et quand on regarde les épisodes seulement en V.O. ^^)</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sheppard-u1471.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21901"></a>
+				<b class="postauthor">time2fly</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: L'origine du Big Bang.</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 20 Nov 2010 10:51&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=92_1260039548.jpg" width="115" height="116" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 12 Nov 2009 16:55<br /><b>Messages:</b> 128				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody"><div class="quotetitle">Ronnon a écrit:</div><div class="quotecontent">Et l'origine de l'orthographe tu connais? <img src="./images/smilies/icon_eek.gif" alt=":shock:" title="Choqué" /></div><br />celle du français, &quot;connais tu&quot; ?<br /><br />tant que tout est écris correctement, sans type &quot;sms&quot;, quel importance ? de plus aux vus de la moyenne française, peu de monde peux critiquer l'un ou l'autre sur l'orthographe. même des bac +5 ne maitrise en rien notre langue.<br /><br />a bonne entendeur...</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.replikultes.net/medias/uploads/films/stargate/stargate_02.jpg" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/time2fly-u92.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 11 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/l-origine-du-big-bang-t1651-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: Aucun utilisateur enregistré et 0 invités</p>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Vous <strong>ne pouvez pas</strong> poster de nouveaux sujets<br />Vous <strong>ne pouvez pas</strong> répondre aux sujets<br />Vous <strong>ne pouvez pas</strong> éditer vos messages<br />Vous <strong>ne pouvez pas</strong> supprimer vos messages<br />Vous <strong>ne pouvez pas</strong> joindre des fichiers<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15" selected="selected">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

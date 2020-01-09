@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Episodes saison 2</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite"><script type="text/javascript"><!--
+google_ad_client = "pub-4565878440241178";
+/* 728x90, date de cr�ation 19/01/10 */
+google_ad_slot = "3374205398";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Lun 21 Juin 2010 14:59</span>
+<span class="right">Nous sommes le Lun 21 Juin 2010 14:59</span>
+
+
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/ressources-f7.html">Ressources</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/episodes-saison-2-f21.html">Episodes saison 2</a></p>
+<br />	<div id="pageheader">
+		<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/episodes-saison-2-f21.html">Episodes saison 2</a></h2>
+
+					<p class="moderators">Modérateur: oneil7</p>
+			</div>
+
+	<br clear="all" /><br />
+
+<div id="pagecontent">
+
+		<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 sujet ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+					</tr>
+		</table>
+			<table class="tablebg" width="100%" cellspacing="1">
+		<tr>
+			<td class="cat" colspan="5">
+				<table width="100%" cellspacing="0">
+				<tr class="nav">
+					<td valign="middle">&nbsp;</td>
+					<td align="right" valign="middle">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+							<th colspan="2">&nbsp;Sujets&nbsp;</th>
+						<th>&nbsp;Réponses&nbsp;</th>
+			<th>&nbsp;Vus&nbsp;</th>
+			<th>&nbsp;Dernier message&nbsp;</th>
+		</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Mer 16 Juin 2010 13:44" href="http://stargateuniverse.lndo.site/phpbb3/2x01-intervention-t1041.html" class="topictitle">2x01 Intervention</a>
+											<p class="gensmall">Auteur: oneil7</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">460</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Jeu 17 Juin 2010 10:35</p>
+					<p class="topicdetails">maxence											</p>
+				</td>
+			</tr>
+
+				</table>
+			<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 sujet ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+					</tr>
+		</table>
+
+		<br clear="all" />
+</div>
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/ressources-f7.html">Ressources</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/episodes-saison-2-f21.html">Episodes saison 2</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span> et 0 invités</p>
+
+
+<h4 class="notable">Légende</h4>
+<table cellspacing="3" cellpadding="0" id="legendaforum">
+			<tr>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread.png" width="35" height="40" alt="Nouveaux messages" title="Nouveaux messages" /></td>
+				<td class="gensmall">Nouveaux messages</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+				<td class="gensmall">Pas de nouveau message</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/announce_read.png" width="35" height="40" alt="Annonce" title="Annonce" /></td>
+				<td class="gensmall">Annonce</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread_hot.png" width="35" height="40" alt="Nouveaux messages [ Populaires ]" title="Nouveaux messages [ Populaires ]" /></td>
+				<td class="gensmall">Nouveaux messages [ Populaires ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read_hot.png" width="35" height="40" alt="Pas de nouveaux messages [ Populaires ]" title="Pas de nouveaux messages [ Populaires ]" /></td>
+				<td class="gensmall">Pas de nouveaux messages [ Populaires ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/sticky_read.png" width="35" height="40" alt="Post-it" title="Post-it" /></td>
+				<td class="gensmall">Post-it</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread_locked.png" width="35" height="40" alt="Nouveaux messages [ Verrouillés ]" title="Nouveaux messages [ Verrouillés ]" /></td>
+				<td class="gensmall">Nouveaux messages [ Verrouillés ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read_locked.png" width="35" height="40" alt="Pas de nouveaux messages [ Verrouillés ]" title="Pas de nouveaux messages [ Verrouillés ]" /></td>
+				<td class="gensmall">Pas de nouveaux messages [ Verrouillés ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_moved.png" width="35" height="40" alt="Sujet déplacé" title="Sujet déplacé" /></td>
+				<td class="gensmall">Sujet déplacé</td>
+			</tr>
+			</table>
+
+
+
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21" selected="selected">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

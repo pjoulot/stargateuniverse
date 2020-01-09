@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Asgard à bord du destiny : Le bar</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '10';
+var base_url = 'http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011.html';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite"><script type="text/javascript"><!--
+google_ad_client = "pub-4565878440241178";
+/* 728x90, date de cr�ation 19/01/10 */
+google_ad_slot = "3374205398";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Mer 16 Juin 2010 18:23</span>
+<span class="right">Nous sommes le Mer 16 Juin 2010 18:23</span>
+
+
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p>
+<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011.html">Asgard à bord du destiny</a></h2>
+
+	<p class="moderators">Modérateur: oneil7</p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 17 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 0 0 2px 0;">
+	<tr>
+		<td class="cat" style="text-align: center;">
+			<table cellspacing="0" style="margin: auto;">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+				<td class="nav" align="right" nowrap="nowrap">			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+			<tr>
+			<th>Auteur</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14461"></a>
+				<b class="postauthor">Dr. Rush</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 10:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=115_1262274591.jpg" width="67" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 6 Déc 2009 09:46<br /><b>Messages:</b> 70<br /><b>Localisation:</b> pas de calais				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">j'ai beau chercher, mais je ne trouve pas la reponse, on dit sans cesse que le destiny n'est pas fait pour etre occupé mais juste pour l'exploration. Si c'est le cas, qui explorait les planetes ou le destiny s'arretait avant que les humains arrivent? pourquoi le destiny n'envoyait pas tout simplement un kino programmé pour recuperer les données des planetes? un vaisseau beaucoup plus petit equipé juste d'une porte des etoiles et un stock de kino aurait eté nécessaire pour explorer, pourquoi un vaisseu si grand s'il n'avait pas d'autre fonction que l'exploration, puis on sait que les asgard on changé plusieures fois de planete, peut etre cherchaient ils une planete ou la vie serait plus facile pour leur corps en fin de vie et fragile apres tout ils faisaient partie d'une alliance entre ancien/nox/fuling et asgard. ensuite en regardant bien les episodes, je me suis posé la question de savoir si les asgard n'avaient pas colaboré avec les anciens a bord du destiny? iol m'a suffit de regardé encore une ennieme fois la serie SGA pourm'en rendre compte: les combinaison a bord du destiny ressemblent etrangement aux combinaison que porte les asgard dans l'episode de la saison 5 premier contact et le peuple perdu.<br />De plus je ne pense pas que les nox aient disparus puuisque la premiere fois que les asgard apparaissent l'un d'entre eux dit a o neill qu'il a fait le premier pas pour etre la cinquieme race, ce qui sous entend que les 4 autres sont encore là.<br /><br />Qu'en pensez vous?</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #0000BF"><em>&quot;Le Destiny, le design est clairement Ancien...<br />Ce vaisseau est peut-être la plus importante découverte de l'humanité depuis la porte des étoiles&quot;</em></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/dr-rush-u115.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14471"></a>
+				<b class="postauthor">Stocked</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 10:32&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 5 Mai 2010 13:34<br /><b>Messages:</b> 147				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Le Destiny est fait pour être occupé, je comprends pas où tu as cette information.<br />C'est juste que les Anciens se sont consacrés a autre chose qu'à ce vaisseau par la suite.<br /><br />Les Asgards ne sont pas au courant de tout, et quand O'Neill rend visite aux Asgards, ils sont dans une autre galaxie donc... ils ne sont pas au courant de tout.<br /><br />Peut-être que les combinaisons sont les mêmes pour raisons financières, mais j'en doute.</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.noelshack.com/up/aaa/Noeliste045384.jpg" alt="Image" /><br /><img src="http://system.fr.nf/userbar/25.png" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stocked-u521.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14481"></a>
+				<b class="postauthor">Sgtgui</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 10:40&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 5 Déc 2009 22:16<br /><b>Messages:</b> 11				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">raison financière mec &gt;&lt;  !      Les anciens n'ont pas connus la crise je pense <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /> <br />Regarder bien cher amis la partie habiter par les terriens très minime et si vous reculer vous voyer une genre de pyramide =D au fond du vaisseau très grand mais qu'y a 'il dans ce compartiment gigantesque ! mystère raison de plus qu'il est eclairer car l'on vois des lumière provenant ce cette endroit <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sgtgui-u113.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14501"></a>
+				<b class="postauthor">Stocked</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 11:27&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 5 Mai 2010 13:34<br /><b>Messages:</b> 147				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Fais nous une capture, parce que je sais pas précisément de quoi tu parles là ...</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.noelshack.com/up/aaa/Noeliste045384.jpg" alt="Image" /><br /><img src="http://system.fr.nf/userbar/25.png" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stocked-u521.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14531"></a>
+				<b class="postauthor">Djidee</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 12:33&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=891_1276276965.jpg" width="87" height="87" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Ven 11 Juin 2010 16:55<br /><b>Messages:</b> 26<br /><b>Localisation:</b> France				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">les Asgards dans ce vaisseau ????<br />je ne sais pas mais il n'est pas super vieux ce vaisseau???<br />D'après mes sources (anonymes) il y aurait eu plusieurs vaisseau, pour la mise en place des portes, pour explorer les planète ou les portes ont été posée, pour la guerre (même s'ils était pacifique, il y avait quand même les wraiths et d'autres bestioles comme ca.) et pour la mise en place de colonies.<br /><br />Si vous regardez Atlantis, vous devez savoir que la ville d'Atlantis peut aller aussi bien sous, sur l'eau et dans l'espace, même si ça consomme beaucoup d'énergie. et ce vaisseau est fait pour la colonisation, c'est une sorte de tête de pont.</div>
+
+											<span class="postbody"><br />_________________<br />Explorer l'inexplorée. Questionner tout ce qui peut l'être. Mais par dessus tout... survivre.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/djidee-u891.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14541"></a>
+				<b class="postauthor">Sgtgui</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 13:17&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 5 Déc 2009 22:16<br /><b>Messages:</b> 11				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">VOila vers l'arrière vois tu cette genre de pyramide ! il n'y sont pas encore et je me demande ce que sa peut ètre vus que l'on vois clairement de la lumière provenant de cette endroit !</div>
+
+											<span class="gensmall error"><br /><br />Vous n’avez pas les permissions nécessaires pour voir les fichiers joints à ce message.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sgtgui-u113.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14551"></a>
+				<b class="postauthor">Djidee</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 13:29&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=891_1276276965.jpg" width="87" height="87" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Ven 11 Juin 2010 16:55<br /><b>Messages:</b> 26<br /><b>Localisation:</b> France				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">effectivement je ne l'avait pas remarquer alors que je vois souvent des trucs que les autres ne voient pas (exemple: l'observateur dans Fringe, ou d'autres trucs comme ça)<br /><br />peut-être que les Asgards ont aider a la construction et ils ont rajouter sa par fantaisie ou bien ils sont dans ce vaisseau a attendre qu'on les trouvent</div>
+
+											<span class="postbody"><br />_________________<br />Explorer l'inexplorée. Questionner tout ce qui peut l'être. Mais par dessus tout... survivre.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/djidee-u891.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14571"></a>
+				<b class="postauthor">stormeur</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 15:12&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=341_1272464828.jpg" width="140" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 22 Avr 2010 18:03<br /><b>Messages:</b> 64				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">éhuu y faut arrêter la , pourquoi les asgards seraient ils là . <br />Les space suit ce ressemblent oui mais qui te dit que les asgards non pas récupère cette technologie aux anciens justement en prenant le laboratoire de janus  (cf atlantis saison 5 épisode 10) qui est sur une planète très toxique . Ça pourrait expliquer la ressemblance tu crois pas ? .<br /><br /> Et les asgards sont tous morts enfin suite à l'épisode de atlantis on peut imaginer qu'il y en a encore quelques un mais bon . Et pourquoi les asgards serait sur le vaisseau ce n'est pas leurs but d'explorer , ils cherchent à trouver une solution pour mieux ce cloner .</div>
+
+												<br /><br />
+							<span class="gensmall">Dernière édition par stormeur le Dim 13 Juin 2010 16:57, édité 1 fois.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stormeur-u341.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14591"></a>
+				<b class="postauthor">Stocked</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 16:57&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 5 Mai 2010 13:34<br /><b>Messages:</b> 147				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ils ne peuvent pas reproduire tous les endroits du vaisseau dans leur studio, donc ils vont nous dire que cette &quot;pyramide&quot; contient juste des quartiers ou des salles de stockage.<br />De plus, je trouve vraiment étrange la taille qu'a ce vaisseau. Regardez la taille de la cantine, je suppose qu'il y en a plusieurs mais elle est quand même rikiki. On peut au moins mettre quelques centaines de personnes dans ce vaisseau, et je trouve les salles de contrôle et tout le reste inadapté par rapport à la contenance que peut avoir ce vaisseau.</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.noelshack.com/up/aaa/Noeliste045384.jpg" alt="Image" /><br /><img src="http://system.fr.nf/userbar/25.png" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stocked-u521.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14601"></a>
+				<b class="postauthor">Dartaillus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Asgard à bord du destiny</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 13 Juin 2010 17:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 13 Juin 2010 16:48<br /><b>Messages:</b> 1				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Les asgards sont toujours présents dans la galaxie de pégase comme on l'apprend dans l'épisode où on les voit dans les fameuses combinaison.<br />ET dans cette épisode Daniel et Mérédith en découvrent  2 dans un &quot;placard&quot; on peut donc aisément présumer que ces combinaisons dans SGA sont Lantiennes et plus récente que celle du Destiny c'est probablement pour ça qu'elles ont la fonction de s'adapter à leur occupants.<br /><br />Ensuite ils le présument tous que le Destiny servait uniquement à une exploration des galaxies visitées. Après tout les Anciens n'auraient eu aucun mal à faire des allers-retours entre le Destiny et leurs planètes actuelles.<br /><br />ON pourrait même supposer que le Destiny ait été lancé juste avant que les Oris ne lancent leurs attaques sur les anciens dans la voie lactée comme une chapatoire pour trouver une nouvelle galaxie habitable</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/dartaillus-u951.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 17 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/asgard-a-bord-du-destiny-t1011-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: Aucun utilisateur enregistré et 0 invités</p>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Vous <strong>ne pouvez pas</strong> poster de nouveaux sujets<br />Vous <strong>ne pouvez pas</strong> répondre aux sujets<br />Vous <strong>ne pouvez pas</strong> éditer vos messages<br />Vous <strong>ne pouvez pas</strong> supprimer vos messages<br />Vous <strong>ne pouvez pas</strong> joindre des fichiers<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15" selected="selected">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+
+<playlist version='1' xmlns='http://xspf.org/ns/0/'>
+	<title>Trailers</title>
+	<trackList>
+		<track>
+			<title>Saison 1 - Coming 2009</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_coming_2009.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_coming_2009.jpg</image>
+			<annotation></annotation>
+			<id>4</id>
+			<counter>225</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - MGM</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_mgm_standard.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_mgm_standard.jpg</image>
+			<annotation></annotation>
+			<id>5</id>
+			<counter>231</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Trailer n°1</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_1.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_1.jpg</image>
+			<annotation></annotation>
+			<id>6</id>
+			<counter>197</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Trailer n°2</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_2.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_2.jpg</image>
+			<annotation></annotation>
+			<id>7</id>
+			<counter>110</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Trailer n°3</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_3.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_3.jpg</image>
+			<annotation></annotation>
+			<id>8</id>
+			<counter>61</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Trailer n°4</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_4.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_4.jpg</image>
+			<annotation></annotation>
+			<id>9</id>
+			<counter>59</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Trailer n°5</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_5.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_5.jpg</image>
+			<annotation></annotation>
+			<id>10</id>
+			<counter>73</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Frantic</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_frantic.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_frantic.jpg</image>
+			<annotation></annotation>
+			<id>11</id>
+			<counter>67</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Philosophical</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_philosophical.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_philosophical.jpg</image>
+			<annotation></annotation>
+			<id>12</id>
+			<counter>42</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Saison 1 - Survive</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/trailer_saison_1_survive.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_saison_1_survive.jpg</image>
+			<annotation></annotation>
+			<id>13</id>
+			<counter>32</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Episode 03 - Air Part 3</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/s1e03_air_part_3.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_s1e03.jpg</image>
+			<annotation></annotation>
+			<id>14</id>
+			<counter>123</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Episode 04 - Darkness</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/s1e04_darkness.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_s1e04.jpg</image>
+			<annotation></annotation>
+			<id>15</id>
+			<counter>90</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Episode 05 - Light</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/s1e05_light.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_s1e05.jpg</image>
+			<annotation></annotation>
+			<id>16</id>
+			<counter>194</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Episode 06 - Water</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/s1e06_water.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/vignettes/vignette_trailer_s1e06.jpg</image>
+			<annotation></annotation>
+			<id>17</id>
+			<counter>92</counter>
+			<info></info>
+		</track>
+		<track>
+			<title>Episode 07 - Earth</title>
+			<creator>Unknown</creator>
+			<location>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/s1e07_earth.flv</location>
+			<image>http://stargateuniverse.lndo.site/wp-content/uploads/2009/10/vignette_trailer_s1e07.jpg</image>
+			<annotation></annotation>
+			<id>29</id>
+			<counter>551</counter>
+			<info></info>
+		</track>
+	</trackList>
+</playlist>

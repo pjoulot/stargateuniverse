@@ -1,0 +1,823 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Charte du forum : Le site et ses problèmes techniques</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite"><script type="text/javascript"><!--
+google_ad_client = "pub-4565878440241178";
+/* 728x90, date de cr�ation 19/01/10 */
+google_ad_slot = "3374205398";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Mar 18 Mai 2010 11:20</span>
+<span class="right">Nous sommes le Mar 18 Mai 2010 11:20</span>
+
+
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-site-et-ses-problemes-techniques-f16.html">Le site et ses problèmes techniques</a></p>
+<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/charte-du-forum-t571.html">Charte du forum</a></h2>
+
+	<p class="moderators">Modérateur: oneil7</p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 10 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 0 0 2px 0;">
+	<tr>
+		<td class="cat" style="text-align: center;">
+			<table cellspacing="0" style="margin: auto;">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+				<td class="nav" align="right" nowrap="nowrap">			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+			<tr>
+			<th>Auteur</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p8451"></a>
+				<b class="postauthor">oneil7</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 09:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=221_1266672190.jpg" width="120" height="120" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 10 Fév 2010 06:41<br /><b>Messages:</b> 179				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Bonjour à toutes et à tous. Certains diront que je m'investis trop dans mon rôle nouveau de modérateur, d'autres diront que je me prends pour dieu (et ils auraient un peu raison lol) mais voici, sur autorisation de notre seigneur tout puissant Shepard, une charte du forum, puisque le forum n'en possède pas encore.<br /><br /><strong>I) Le corps de vos messages</strong><br /><br />1) Avant de poster un nouveau sujet, pensez bien que le plus important est le titre. N'usez pas de mots tout seul ni de titre trop long (ce qui peut donner des titres horribles comme &quot;Question &quot; ou bien encore &quot;J'ai une question sur l'épisode où on voit le vaisseau qui explose contre une étoile toute noire et avec 25 planètes autour&quot;). Un titre de topic se doit d'être clair et précis à la fois.<br /><br />2) Attention aux majuscules !!! Lorsque vous écrivez SALUT TOUT LE MONDE, les autres usagers du forum pourraient penser que vous criez et cela ne donne pas envie de nous répondre ni de vous lire. Si vous êtes bloqué sur le mode majuscule et que vous ne savez pas comment vous en défaire, appuyez simplement sur la touche avec un cadenas tout à gauche de votre clavier et... ho, c'est magique, vous pouvez de nouveau écrire en minuscule.<br /><br />3) Avant d'ouvrir un nouveau sujet, pensez bien à faire une recherche sur le forum avec l'option Rechercher en haut à droite de la page d'accueil (ou à l'adresse search.php )<br /><br />4) Il est préférable de lire les messages précédemment postés sur un topic pour comprendre la discussion en cour et ne pas être hors-sujet sur un topic (ne parlez pas de la porte des étoiles sur un sujet dédié au football).<br /><br />5) Utilisez des smileys pour donner un ton à votre message. Usez de pour indiquer un message sympathique et de pour indiquer un état de colère intense. Je ne vous les ferais pas tous, ne vous en faites pas. Attention, les smileys ne sont à utiliser qu'occasionnellement et ne doivent pas être utilisés de manière abusive (plus de smileys que de mots dans le message).<br /><br />6) Soyez clair et agréable dans vos message, vous vous attirerez la sympathie de nombreuses personnes. Ainsi, le langue SMS est INTERDIT sur le forum. Il est conseillé d'écrire dans un français correct, pas forcément parfait, mais au moins possible à lire.<br /><br />7) Nouveauté sur le forum, la publicité est désormais interdite avant d'avoir posté 20 messages. Tout manquement à cette règle entraînera une suppression du lien et un avertissement à l'intention du membre. En revanche, les liens vers d'autres sites sont autorisés dans les signatures.<br /><br />8) Ne postez pas de sujet pornographique, révisionniste, ou en général tout sujet contraire à la loi ou aux bonnes mœurs.<br /><br />9) Ne vous impliquez pas dans les échanges injurieux ou agressifs, votre message serait effacé avec le reste de la discussion.<br /><br />10) Evitez les deux messages à la suite (voir plus) ce qui est tout simplement &quot;insupportable&quot; à voir sur un forum. Si vous désirez poster un nouvel élément, vous pouvez utiliser la fonction &quot;Editer&quot;. En revanche, si vous postez deux messages à la suite avec un mois d'écart (pour remonter le topic pour ajouter de nouveaux éléments au débat) ce sera &quot;toléré&quot;.<br /><br /><strong>II) La confidentialité sur le forum</strong><br /><br />Un forum est avant tout un espace internet accessible à tous. N'oubliez pas que lorsque vous publiez votre prénom ou votre age, n'importe qui peut prétendre à utiliser ces informations pour de mauvaises intentions. Soyez prudent et ne divulguez rien de votre vie privée. EN AUCUN CAS NE DONNEZ VOTRE MOT DE PASSE A QUI QUE CE SOIT !!! Désolé de la phrase en majuscule mais c'est un point d'une importance cruciale ! En effet, en aucun cas vous ne devez divulguer votre mot de passe secret, que ce soit celui de votre compte sur le forum ou tout autre mot de passe. Si jamais qui que ce soit vous demande une telle information, restez calme, respirez, et avertissez un membre de la modération ou de l'administration du forum (moi par exemple) qui se chargera de déterminer ce qu'il se passe.<br /><br />Cela ne vous empêche pas de vous présenter dans la section &quot;Présentation des membres&quot; en créant votre propre topic de présentation où tout le monde pourra mieux vous connaître. Donnez par exemple vos centre d'intérêts, votre prénom (facultatif) ou encore votre ville de résidence. Quoi que facultative, la présentation du membre reste fortement conseillée pour pouvoir mieux se connaître les uns les autres.<br /><br /><strong>III) Les sanctions</strong><br /><br />En cas de manquement aux règles déjà énoncées, vous vous exposez à des sanctions pouvant aller du simple message privé au bannissement temporaire ou définitif en fonction de la gravitée de vos actions.<br /><br />Vous êtes en désaccord avec une sanction quelle quelle soit, n'hésitez pas à contacter n'importe quel membre de la modération pour avoir des précisions sur votre sanction, quelle que soit la situation, nous seront toujours là pour répondre à vos questions.<br /><br /><strong>IV) Des question, encore des questions, toujours des questions et des suggestions</strong><br /><br />Si vous avez la moindre question au sujet du fonctionnement du forum, pas la peine de déranger votre instinct de survie pour résoudre vos problème, un simple message privé (MP) envers un membre de l'administration et vous obtiendrez vous réponses. Evidemment, pour des questions de l'ordre de Stargate Universe comme &quot;pourquoi les chevrons sont-ils différents ? &quot; il est préférable de les poster sur le forum, par exemple sous forme d'un nouveau topic, pour que tous puisse vous donner son avis et ainsi débattre de la question dans la joie et la bonne humeur (de préférence).<br /><br /><strong>V) Personnalisez votre compte</strong><br /><br />Quoi de plus agréable sur un forum que de pouvoir retrouver un membre juste à son avatar. Bien que totalement facultatif, la mise en place d'un avatar sur votre compte est fortement conseillée pour pouvoir vous reconnaître sans avoir à lire votre pseudonyme au moment de lire votre message. En parlant du pseudonyme, choisissez un nom agréable à lire et surtout intéressant et original (si un oneil7 existe, ce n'est pas la peine de créer un oneill7 ni un oneilll7). Quand à la signature, vous êtes libre d'y mettre ce que vous voulez (dans certaines limites) dont de la publicité, des liens, un petit message, etc...<br /><br /><strong>VI) Des membres responsables du forum</strong><br /><br />Nous sommes tous membres du forum de StargateUniverse.fr, donc, nous devons tous prendre soin du forum. Pour cela, n'hésitez pas à remettre sur le droit chemin (toujours de manière cordiale) un membre qui s'est égaré et n'hésitez pas à signaler à l'équipe de modération un ou plusieurs membres faisant entorse à la règle pour une intervention rapide sans pour autant abuser. Surtout, n'abusez pas du droit de &quot;membre-modérateur&quot;, comme j'aime l'appeler. En effet, des modérateurs sont là pour le rôle &quot;d'emmerdeur de service&quot; et pour être omniprésent sur le forum pour signaler la moindre entorse au règlement, pas la peine de n'être inscrit sur le forum QUE pour jouer les modos.<br /><br /><strong>VII) Le forum, un lieu de vie agréable</strong><br /><br />Tout cette longue charte impose évidement des restrictions, mais ces restrictions n'ont pas pour but de vous empêcher de poster, au contraire, elles ne veulent que vous donner des indications pour pouvoir vivre dans la communauté sur forum. Restez vous-même et ne venez pas lire la charte à chaque fois que vous postez pour vérifier si vous êtes dans les règles. De toute façon, une petite entorse à la règle de temps en temps, ça ne fait pas non plus des morts à partir du moment où ce n'est pas exagéré. Dans ce cas là, une simple édition du message du la part d'un modérateur vous indiquera votre faute pour vous rappeler à l'ordre.<br /><br />Voilà, si vous avez des suggestions concernant la charte, je vous en prie, toute proposition est la bienvenue. Et en cas de question, n'hésitez pas à la poser. Bonne journée à tous.<br /><br />Oneil7, modérateur à votre service</div>
+
+											<span class="postbody"><br />_________________<br /><span style="text-decoration: underline"><a href="http://stargateuniverse.lndo.site/phpbb3/trinity-t201.html" class="postlink">Trinity</a></span>, Ma fanfic !<br /><br />Modérateur à votre service, &quot;Sa majesté Oneil7 qui danse en caleçon sur les musiques de SGU&quot;. Ouvert à toutes question ou suggestion sur le forum.<br /><br />N'oubliez pas de lire la <a href="http://stargateuniverse.lndo.site/phpbb3/chartre-du-forum-t571.html" class="postlink">Charte du forum</a></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/oneil7-u221.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p8461"></a>
+				<b class="postauthor">Inago</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Chartre du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 10:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://t1.gstatic.com/images?q=tbn:ptoFrVme-R4C9M:http://img5.allocine.fr/acmedia/medias/nmedia/18/72/90/82/19182720.jpg" width="95" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 15 Nov 2009 19:00<br /><b>Messages:</b> 40				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Monsieur le modérateur  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /> on dit pas &quot;chartre&quot; mais &quot;charte&quot;  <img src="./images/smilies/icon_lol.gif" alt=":lol:" title="Rire" /></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/inago-u95.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p8491"></a>
+				<b class="postauthor">Riku Rion</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Chartre du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 10:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=181_1267039772.jpg" width="100" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 24 Jan 2010 10:06<br /><b>Messages:</b> 145<br /><b>Localisation:</b> 11				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">C'est la seule faute en effet ^^ Sinon j'approuve la charte <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /></div>
+
+											<span class="postbody"><br />_________________<br /><!-- m --><a class="postlink" href="http://forum.stargateultimate.com">http://forum.stargateultimate.com</a><!-- m --></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/riku-rion-u181.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p8511"></a>
+				<b class="postauthor">Stocked</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Chartre du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 10:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 5 Mai 2010 13:34<br /><b>Messages:</b> 49				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody"><div class="quotetitle"><b>Citation:</b></div><div class="quotecontent">&quot;J'ai une question sur l'épisode où on voit le vaisseau qui explose contre une étoile toute noire et avec 25 planètes autour&quot;</div><br /><br />*Snif Snif* Ça sent fortement le spoiler <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stocked-u521.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p8541"></a>
+				<b class="postauthor">oneil7</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Chartre du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 12:06&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=221_1266672190.jpg" width="120" height="120" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 10 Fév 2010 06:41<br /><b>Messages:</b> 179				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Riku Rion et Inago:<br />Honte à moi, qu'on me jette au bucher <img src="./images/smilies/icon_eek.gif" alt=":shock:" title="Choqué" /> . Comment j'ai pu dire Chartre pendant des années ? <img src="./images/smilies/icon_eek.gif" alt=":shock:" title="Choqué" /> Je corrige tout de suite.<br /><br />Stocked:<br />Ne t'en fais pas, aucun spoiler <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /> . C'est juste un titre que j'ai mis comme ça sans réflcéhir lol. <img src="./images/smilies/icon_mrgreen.gif" alt=":mrgreen:" title="M. Vert" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="text-decoration: underline"><a href="http://stargateuniverse.lndo.site/phpbb3/trinity-t201.html" class="postlink">Trinity</a></span>, Ma fanfic !<br /><br />Modérateur à votre service, &quot;Sa majesté Oneil7 qui danse en caleçon sur les musiques de SGU&quot;. Ouvert à toutes question ou suggestion sur le forum.<br /><br />N'oubliez pas de lire la <a href="http://stargateuniverse.lndo.site/phpbb3/chartre-du-forum-t571.html" class="postlink">Charte du forum</a></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/oneil7-u221.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p8581"></a>
+				<b class="postauthor">Dr. Rush</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 13:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=115_1262274591.jpg" width="67" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 6 Déc 2009 09:46<br /><b>Messages:</b> 44<br /><b>Localisation:</b> pas de calais				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">alors moi aussi j'accepte. Ayant créé mon propre forum j'y ai moi aussi mis une charte.</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #0000BF"><em>&quot;Le Destiny, le design est clairement Ancien...<br />Ce vaisseau est peut-être la plus importante découverte de l'humanité depuis la porte des étoiles&quot;</em></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/dr-rush-u115.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p8621"></a>
+				<b class="postauthor">Riku Rion</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 14:32&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=181_1267039772.jpg" width="100" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 24 Jan 2010 10:06<br /><b>Messages:</b> 145<br /><b>Localisation:</b> 11				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ton propre forum ? Tu as un lien ?</div>
+
+											<span class="postbody"><br />_________________<br /><!-- m --><a class="postlink" href="http://forum.stargateultimate.com">http://forum.stargateultimate.com</a><!-- m --></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/riku-rion-u181.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p8641"></a>
+				<b class="postauthor">Dr. Rush</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 15:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=115_1262274591.jpg" width="67" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 6 Déc 2009 09:46<br /><b>Messages:</b> 44<br /><b>Localisation:</b> pas de calais				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody"><a href="http://les-oriis.forumpro.fr/index.htm" class="postlink">http://les-oriis.forumpro.fr/index.htm</a><br />C'est un forum qui à l'origine sert au jeu Origins return mais qui peut servir a tous les fans de différentes séries, SG, smallville pour le moment et pourquoi pas d'autres séries il suffit d'en faire la demande et je fait de mon mieux pour repondre aux membres</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #0000BF"><em>&quot;Le Destiny, le design est clairement Ancien...<br />Ce vaisseau est peut-être la plus importante découverte de l'humanité depuis la porte des étoiles&quot;</em></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/dr-rush-u115.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p8681"></a>
+				<b class="postauthor">Riku Rion</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 16:43&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=181_1267039772.jpg" width="100" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 24 Jan 2010 10:06<br /><b>Messages:</b> 145<br /><b>Localisation:</b> 11				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Okay merci <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /></div>
+
+											<span class="postbody"><br />_________________<br /><!-- m --><a class="postlink" href="http://forum.stargateultimate.com">http://forum.stargateultimate.com</a><!-- m --></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/riku-rion-u181.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p8711"></a>
+				<b class="postauthor">stormeur</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Charte du forum</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Jeu 13 Mai 2010 18:06&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=341_1272464828.jpg" width="140" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 22 Avr 2010 18:03<br /><b>Messages:</b> 29				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">ok pas de souci</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/stormeur-u341.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 10 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-site-et-ses-problemes-techniques-f16.html">Le site et ses problèmes techniques</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: Aucun utilisateur enregistré et 0 invités</p>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Vous <strong>ne pouvez pas</strong> poster de nouveaux sujets<br />Vous <strong>ne pouvez pas</strong> répondre aux sujets<br />Vous <strong>ne pouvez pas</strong> éditer vos messages<br />Vous <strong>ne pouvez pas</strong> supprimer vos messages<br />Vous <strong>ne pouvez pas</strong> joindre des fichiers<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15">&nbsp; &nbsp;Le bar</option>
+					<option value="16" selected="selected">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

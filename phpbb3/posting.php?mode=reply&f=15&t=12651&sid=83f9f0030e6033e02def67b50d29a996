@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Connexion</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+<a href="./ucp.php?mode=login&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Connexion</a> &nbsp;<a href="./ucp.php?mode=register&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">M’enregistrer</a>
+    </span>
+  <span class="right">
+  <a href="./faq.php?sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">FAQ</a>
+  &nbsp; &nbsp;<a href="./search.php?sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Rechercher</a>  </span>
+</div>
+<span class="left"></span>
+<span class="right">Nous sommes le Sam 2 Juil 2011 01:54</span>
+
+<p class="searchbar">
+<span class="left"><a href="./search.php?search_id=unanswered&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Voir les messages sans réponses</a> | <a href="./search.php?search_id=active_topics&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Voir les sujets récents</a></span>
+</p>
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/?sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Index du forum</a></p>
+<br />
+<form action="./ucp.php?mode=login&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9" method="post">
+
+<table class="tablebg" width="100%" cellspacing="1">
+<tr>
+			<th colspan="2">Connexion</th>
+	</tr>
+	<tr>
+		<td class="row1" colspan="2" align="center"><span class="gensmall">Vous devez être connecté pour répondre aux sujets de ce forum.</span></td>
+	</tr>
+<tr>	<td class="row1" width="50%">
+		<p class="genmed">Vous devez être enregistré pour vous connecter. L’enregistrement ne prend que quelques secondes et augmente vos possibilités. L’administrateur du forum peut également accorder des permissions additionnelles aux utilisateurs enregistrés. Avant de vous enregistrer, assurez-vous d’avoir pris connaissance de nos conditions d’utilisation et de notre politique de vie privée. Assurez-vous de bien lire tout le règlement du forum.</p>
+
+		<p class="genmed" align="center">
+			<a href="./ucp.php?mode=terms&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Conditions d’utilisation</a> | <a href="./ucp.php?mode=privacy&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Politique de vie privée</a>
+		</p>
+	</td>
+		<td class="row2">
+
+		<table align="center" cellspacing="1" cellpadding="4" style="width: 100%;">
+
+		<tr>
+			<td valign="top" ><b class="gensmall">Nom d’utilisateur:</b></td>
+			<td><input class="post" type="text" name="username" size="25" value="" tabindex="1" />
+									<br /><a class="gensmall" href="./ucp.php?mode=register&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">M’enregistrer</a>
+							</td>
+		</tr>
+		<tr>
+			<td valign="top" ><b class="gensmall">Mot de passe:</b></td>
+			<td>
+				<input class="post" type="password" name="password" size="25" tabindex="2" />
+				<br /><a class="gensmall" href="./ucp.php?mode=sendpassword&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">J’ai oublié mon mot de passe</a>			</td>
+		</tr>
+					<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" class="radio" name="autologin" tabindex="3" /> <span class="gensmall">Me connecter automatiquement à chaque visite</span></td>
+			</tr>
+						<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" class="radio" name="viewonline" tabindex="4" /> <span class="gensmall">Cacher mon statut en ligne pour cette session</span></td>
+			</tr>
+				</table>
+	</td>
+</tr>
+
+<tr>
+	<td class="cat" colspan="2" align="center"><input type="hidden" name="redirect" value="posting.php?mode=reply&amp;f=15&amp;t=12651" />
+<input type="hidden" name="sid" value="e9795d3bc7ec1ac0a7a6cad0182e0ed9" />
+<input type="submit" name="login" class="btnmain" value="Connexion" tabindex="5" /></td>
+</tr>
+</table>
+
+</form>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/?sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9">Index du forum</a></p>
+<br clear="all" />
+
+<div align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php?sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+	<img src="./cron.php?cron_type=tidy_cache&amp;sid=e9795d3bc7ec1ac0a7a6cad0182e0ed9" width="1" height="1" alt="cron" />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

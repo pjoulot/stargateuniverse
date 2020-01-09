@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Voir les messages sans réponses</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+<a href="./ucp.php?mode=login&amp;sid=960648313b42e24334ba23d6694cc21e">Connexion</a> &nbsp;<a href="./ucp.php?mode=register&amp;sid=960648313b42e24334ba23d6694cc21e">M’enregistrer</a>
+    </span>
+  <span class="right">
+  <a href="./faq.php?sid=960648313b42e24334ba23d6694cc21e">FAQ</a>
+  &nbsp; &nbsp;<a href="./search.php?sid=960648313b42e24334ba23d6694cc21e">Rechercher</a>  </span>
+</div>
+<span class="left"></span>
+<span class="right">Nous sommes le Ven 1 Juil 2011 17:56</span>
+
+<p class="searchbar">
+<span class="left"><a href="./search.php?search_id=unanswered&amp;sid=960648313b42e24334ba23d6694cc21e">Voir les messages sans réponses</a> | <a href="./search.php?search_id=active_topics&amp;sid=960648313b42e24334ba23d6694cc21e">Voir les sujets récents</a></span>
+</p>
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/?sid=960648313b42e24334ba23d6694cc21e">Index du forum</a></p>
+<br />
+<form method="post" action="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;search_id=unanswered&amp;sid=960648313b42e24334ba23d6694cc21e">
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td colspan="2"><span class="titles">Voir les messages sans réponses</span><br /></td>
+</tr>
+<tr>
+	<td class="genmed"></td>
+	<td align="right"></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<th colspan="3" nowrap="nowrap">&nbsp;Sujets&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Auteur&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Réponses&nbsp;/&nbsp;Vus&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Dernier message&nbsp;</th>
+	</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/dommage-t15671.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">dommage</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/bigoudis-u12101.html?sid=960648313b42e24334ba23d6694cc21e">bigoudis</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 407</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Lun 13 Juin 2011 21:24</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/bigoudis-u12101.html?sid=960648313b42e24334ba23d6694cc21e">bigoudis</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post43641.html?sid=960648313b42e24334ba23d6694cc21e#p43641"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/musique-episode-20-saison-2-t13801.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Musique épisode 20 saison 2</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/musiques-f12.html?sid=960648313b42e24334ba23d6694cc21e">Musiques</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/sysy42-u9911.html?sid=960648313b42e24334ba23d6694cc21e">sysy42</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 363</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Ven 20 Mai 2011 11:10</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/sysy42-u9911.html?sid=960648313b42e24334ba23d6694cc21e">sysy42</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post41341.html?sid=960648313b42e24334ba23d6694cc21e#p41341"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/probleme-pour-les-citations-t1811.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Probleme pour les citations</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-site-et-ses-problemes-techniques-f16.html?sid=960648313b42e24334ba23d6694cc21e">Le site et ses problèmes techniques</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html?sid=960648313b42e24334ba23d6694cc21e">mister-wonderful</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 244</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Ven 17 Déc 2010 20:07</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html?sid=960648313b42e24334ba23d6694cc21e">mister-wonderful</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post24031.html?sid=960648313b42e24334ba23d6694cc21e#p24031"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/concours-de-fanarts-dvd-saison-1-et-pilote-a-gagner-t1371.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Concours de Fanarts - DVD saison 1 et pilote à gagner</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/shepard2-u1021.html?sid=960648313b42e24334ba23d6694cc21e">Shepard2</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 794</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Lun 23 Aoû 2010 13:45</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/shepard2-u1021.html?sid=960648313b42e24334ba23d6694cc21e">Shepard2</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post17801.html?sid=960648313b42e24334ba23d6694cc21e#p17801"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/comic-con-france-t1031.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Comic Con' France</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/comic-con-france-u571.html?sid=960648313b42e24334ba23d6694cc21e">Comic Con' France</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 432</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Mar 15 Juin 2010 14:57</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/comic-con-france-u571.html?sid=960648313b42e24334ba23d6694cc21e">Comic Con' France</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post14991.html?sid=960648313b42e24334ba23d6694cc21e#p14991"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/soiree-stargate-sg1-dimanche-30-mai-2010-t891.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Soirée stargate SG1 dimanche 30 mai 2010.</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/flo83-u451.html?sid=960648313b42e24334ba23d6694cc21e">flo83</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 533</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Dim 30 Mai 2010 20:26</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/flo83-u451.html?sid=960648313b42e24334ba23d6694cc21e">flo83</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post13191.html?sid=960648313b42e24334ba23d6694cc21e#p13191"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read_locked.png" width="35" height="40" alt="Ce sujet est verrouillé, vous ne pouvez pas éditer de messages ou poster d’autres réponses." title="Ce sujet est verrouillé, vous ne pouvez pas éditer de messages ou poster d’autres réponses." /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/la-magie-t831.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">la magie</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/eli-wallace-u761.html?sid=960648313b42e24334ba23d6694cc21e">Eli wallace</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 416</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Sam 29 Mai 2010 16:10</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/eli-wallace-u761.html?sid=960648313b42e24334ba23d6694cc21e">Eli wallace</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post12901.html?sid=960648313b42e24334ba23d6694cc21e#p12901"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read_locked.png" width="35" height="40" alt="Ce sujet est verrouillé, vous ne pouvez pas éditer de messages ou poster d’autres réponses." title="Ce sujet est verrouillé, vous ne pouvez pas éditer de messages ou poster d’autres réponses." /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/aliens-qui-se-cache-sur-destiny-t811.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Aliens qui se cache sur destiny ??????</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/eli-wallace-u761.html?sid=960648313b42e24334ba23d6694cc21e">Eli wallace</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 687</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Ven 28 Mai 2010 21:45</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/eli-wallace-u761.html?sid=960648313b42e24334ba23d6694cc21e">Eli wallace</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post12671.html?sid=960648313b42e24334ba23d6694cc21e#p12671"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/remake-de-sgu-t191.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">[Projet de fanfic]Remake de SGU</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html?sid=960648313b42e24334ba23d6694cc21e">Le bar</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/oneil7-u221.html?sid=960648313b42e24334ba23d6694cc21e">oneil7</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 211</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Ven 12 Fév 2010 07:55</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/oneil7-u221.html?sid=960648313b42e24334ba23d6694cc21e">oneil7</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post2361.html?sid=960648313b42e24334ba23d6694cc21e#p2361"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/presenation-de-damrick-t13.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Présenation de Damrick</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/damrick-u69.html?sid=960648313b42e24334ba23d6694cc21e">Damrick</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 141</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Jeu 15 Oct 2009 13:37</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/damrick-u69.html?sid=960648313b42e24334ba23d6694cc21e">Damrick</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post24.html?sid=960648313b42e24334ba23d6694cc21e#p24"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/herodotus-t10.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Herodotus</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/herodotus-u67.html?sid=960648313b42e24334ba23d6694cc21e">Herodotus</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 209</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Sam 10 Oct 2009 22:17</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/herodotus-u67.html?sid=960648313b42e24334ba23d6694cc21e">Herodotus</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post21.html?sid=960648313b42e24334ba23d6694cc21e#p21"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/sok-r62-t9.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">SoK@r62</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/sok-r62-u56.html?sid=960648313b42e24334ba23d6694cc21e">SoK@r62</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 132</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Jeu 8 Oct 2009 18:06</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/sok-r62-u56.html?sid=960648313b42e24334ba23d6694cc21e">SoK@r62</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post15.html?sid=960648313b42e24334ba23d6694cc21e#p15"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/grizz-t8.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Grizz</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/grizzly31-u59.html?sid=960648313b42e24334ba23d6694cc21e">Grizzly31</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 195</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Jeu 8 Oct 2009 18:00</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/grizzly31-u59.html?sid=960648313b42e24334ba23d6694cc21e">Grizzly31</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post14.html?sid=960648313b42e24334ba23d6694cc21e#p14"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/ryochan-t7.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">ryochan</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/ryochan-u61.html?sid=960648313b42e24334ba23d6694cc21e">ryochan</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 145</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Jeu 8 Oct 2009 15:31</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/ryochan-u61.html?sid=960648313b42e24334ba23d6694cc21e">ryochan</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post13.html?sid=960648313b42e24334ba23d6694cc21e#p13"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/kyllman-t6.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Kyllman</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/kyllman-u57.html?sid=960648313b42e24334ba23d6694cc21e">kyllman</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 205</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Mer 7 Oct 2009 11:22</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/kyllman-u57.html?sid=960648313b42e24334ba23d6694cc21e">kyllman</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post8.html?sid=960648313b42e24334ba23d6694cc21e#p8"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/meylleen-t3.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Meylleen</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/meylleen-u54.html?sid=960648313b42e24334ba23d6694cc21e">Meylleen</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 140</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Dim 4 Oct 2009 11:55</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/meylleen-u54.html?sid=960648313b42e24334ba23d6694cc21e">Meylleen</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post3.html?sid=960648313b42e24334ba23d6694cc21e#p3"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle" class="efekt">
+			<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+			<td class="row2" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-du-webmaster-t2.html?sid=960648313b42e24334ba23d6694cc21e" class="topictitle">Présentation du webmaster</a>
+									<p class="gensmall">dans <a href="http://stargateuniverse.lndo.site/phpbb3/presentation-des-nouveaux-inscrits-f14.html?sid=960648313b42e24334ba23d6694cc21e">Présentation des nouveaux inscrits</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="http://stargateuniverse.lndo.site/phpbb3/shepard-u2.html?sid=960648313b42e24334ba23d6694cc21e" style="color: #AA0000;" class="username-coloured">Shepard</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0 / 181</p></td>
+			<td class="row2" width="150" align="center">
+				<p class="topicdetails">Sam 3 Oct 2009 21:30</p>
+				<p class="topicdetails"><a href="http://stargateuniverse.lndo.site/phpbb3/shepard-u2.html?sid=960648313b42e24334ba23d6694cc21e" style="color: #AA0000;" class="username-coloured">Shepard</a>					<a href="http://stargateuniverse.lndo.site/phpbb3/post2.html?sid=960648313b42e24334ba23d6694cc21e#p2"><img src="./styles/polyethylene/imageset/icon_topic_latest.png" width="24" height="15" alt="Voir le dernier message" title="Voir le dernier message" /></a>
+				</p>
+			</td>
+		</tr>
+		<tr>
+		<td class="cat" colspan="7" valign="middle" align="center"><span class="gensmall">Afficher les messages postés depuis:</span> <select name="st" id="st"><option value="0" selected="selected">Tous les résultats</option><option value="1">1 jour</option><option value="7">7 jours</option><option value="14">2 semaines</option><option value="30">1 mois</option><option value="90">3 mois</option><option value="180">6 mois</option><option value="365">1 an</option></select>&nbsp;<span class="gensmall">Trier par:</span> <select name="sk" id="sk"><option value="a">Auteur</option><option value="t" selected="selected">Date</option><option value="f">Forum</option><option value="i">Titre du sujet</option><option value="s">Sujet du message</option></select> <select name="sd" id="sd"><option value="a">Croissant</option><option value="d" selected="selected">Décroissant</option></select>&nbsp;<input class="btnlite" type="submit" value="Aller" name="sort" /></td>
+	</tr>
+	</table>
+
+
+</form>
+
+<div class="gensmall" style="float: left;"><span class="nav">Page <strong>1</strong> sur <strong>1</strong></span> [ 17 résultats trouvés ]</div>
+<div class="nav" style="float: right;"></div>
+
+<br clear="all" /><br />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/?sid=960648313b42e24334ba23d6694cc21e">Index du forum</a></p>
+<br clear="all" />
+
+<div align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php?sid=960648313b42e24334ba23d6694cc21e" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+	<img src="./cron.php?cron_type=tidy_search&amp;sid=960648313b42e24334ba23d6694cc21e" width="1" height="1" alt="cron" />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

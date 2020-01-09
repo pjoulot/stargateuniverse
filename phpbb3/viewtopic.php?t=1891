@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Coup de geule : News</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '10';
+var base_url = 'http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891.html';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Jeu 3 Mar 2011 10:28</span>
+<span class="right">Nous sommes le Jeu 3 Mar 2011 10:28</span>
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/dernieres-infos-f3.html">Dernières infos</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/news-f4.html">News</a></p>
+<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891.html">Coup de geule</a></h2>
+
+	<p class="moderators">Modérateur: oneil7</p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 14 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 0 0 2px 0;">
+	<tr>
+		<td class="cat" style="text-align: center;">
+			<table cellspacing="0" style="margin: auto;">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+				<td class="nav" align="right" nowrap="nowrap">			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+			<tr>
+			<th>Auteur</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p24711"></a>
+				<b class="postauthor">Melz</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 00:29&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 28 Déc 2010 00:03<br /><b>Messages:</b> 1				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Salut ! Je suis nouveau sur ce site et je viens tout juste d'apprendre la nouvelle de l'arrêt de la série à la saison 2. Je peux vous dire qu'en tant que fan absolu de Stargate Universe cet annonce est pire que l'annonce de la fin du monde ! Je préférerais  mourir sous une pluie de météorite que de louper la fin de cette série qui a un potentiel énorme. Chaque épisode a la teneur d'un film, les acteurs sont géniaux, les personnages ont chacun une personnalité très développée, les thèmes psychologiques sont ultra poussés, l'intrigue vous rend dingue, bref, on a pas vu de série dans le style depuis la création même de Stargate SG1. Ca me dégoute de voir qu'une chaine qui a sans doute des bénéfices ENORMES avec l'audience de toutes ses séries de SF puisse vouloir annuler une série pareille. Si les producteurs veulent s'acheter de nouvelles ferrari ou des ipad pour leur gosses ils n'ont qu'à faire quelques économies comme tout le monde. Brad Wright est un génie et ca me désole de voir que SyFy ose mettre dans les cordes un homme pareil, ils se prennent pour la 20th Century Fox qui refuserait une nouvelle trilogie Star Wars. Mais il faut se rappeller qu'à la tête de SyFy il y a des hommes, et qu'en tant qu'équivaux nous pouvons agir. Quelques soient les mesures à prendre il faudra les prendre pour aider Brad Wright et les acteurs qui avaient un tremplin grâce à cette série. Je propose dans un premier temps d'envoyer du courrier en masse à la chaine SyFy, même s'il ne sera pas lu la masse sera remarqué. Dans un deuxième temps il faudrait appeller au boycott du plus de série possible sur les chaines partenaires ici et sur SyFy aux E.U. pour que SyFy comprenne que le pouvoir est à l'audience et que cela peut se retourner contre elle. Si malgrès cela Syfy reste de marbre on peut espérer que Brad Wright trouve une solution de son côté et par exemple puisse changer de production.</div>
+
+											<span class="postbody"><br />_________________<br />For the sake of the crew.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/melz-u1741.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p24721"></a>
+				<b class="postauthor">lyvii</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 08:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 28 Déc 2010 08:36<br /><b>Messages:</b> 4				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Salut ! Je suis tout a fait de ton avis,y compris pour l'analyse que tu fait de la série =) content de voir qu'il y ai des fans qui comme moi sont pres a tout faire pour essayer de sauver SGU.<br />J'aimerai rassembler un maximum de fans de la serie dans un premier temps afin qu'ensemble on mettent en place une sorte de buzz ou de flashmob assez puissant pour que Syfy US nous remarquent et se rende un peu plus compte qu'il n'y a pas que les USA dans le monde =.= !!<br />Nous on est là et qu'on aime cette serie !<br />Alors on vas leurs montrer. Moi j'en ai ras le bol de voir des super séries tels que Jericho ou Survivors s'arreter par soucis d'audiences dans leurs pays respectifs.<br /><br />Donc pour ceux qui veulent se joindre a moi pour essayer de monter quelque chose de gros voici mon msn :<br /><br /><strong><span style="color: #400080">lyvii@live.fr</span></strong><br /><br />Il faut urgemment faire quelque chose avant qu'il ne soit trop tard !<br /><br /><span style="color: #0080BF">&gt;&gt;&gt;&gt; allez rejoindre la communauté &quot;save stargate universe&quot; sur facebook (la plus grosse que jai vu jusqu'ici environs 4694 personnes sont deja dans le groupe)</span><br /><br /><span style="color: #0080FF">&gt;&gt;&gt;&gt; et aussi : <!-- m --><a class="postlink" href="http://www.petitionspot.com/petitions/savesgu">http://www.petitionspot.com/petitions/savesgu</a><!-- m --> (pétition 2400 personnes)</span><br /><br />Merci !</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/lyvii-u1751.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p24771"></a>
+				<b class="postauthor">Inago</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 12:46&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://t1.gstatic.com/images?q=tbn:ptoFrVme-R4C9M:http://img5.allocine.fr/acmedia/medias/nmedia/18/72/90/82/19182720.jpg" width="95" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 15 Nov 2009 19:00<br /><b>Messages:</b> 77				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ah Jericho, j'aimais trop cette série. D'ailleurs depuis hier je regarde de nouveau la saison 1  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /> <br /><br />Pour en revenir à SGU, je crois que c'est clair, SyFy ne veut plus de Stargate. Alors pour qu'il y ait une suite à SGU, il faut qu'une autre chaine rachète la série ou alors qu'elle sorte directement en DVD.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/inago-u95.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p24781"></a>
+				<b class="postauthor">lyvii</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 12:49&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 28 Déc 2010 08:36<br /><b>Messages:</b> 4				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Oui super serie aussi <img src="./images/smilies/icon_e_smile.gif" alt=":)" title="Sourire" /> <br /><br />Et tu crois que c'est possible sans que la série soit diffusée ?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/lyvii-u1751.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p24791"></a>
+				<b class="postauthor">Inago</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 12:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://t1.gstatic.com/images?q=tbn:ptoFrVme-R4C9M:http://img5.allocine.fr/acmedia/medias/nmedia/18/72/90/82/19182720.jpg" width="95" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 15 Nov 2009 19:00<br /><b>Messages:</b> 77				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Je viens de trouver ça sur Melty.fr<br /><br /><div class="quotetitle"><b>Citation:</b></div><div class="quotecontent">Selon les premières rumeurs, Showtime, qui avait diffusé les cinq premières saisons de Stargate SG-1 qui pourrait récupérer SGU, même si la série ne rentrerait tout de même pas forcément dans la politique de la chaîne, qui mise sur le trash et l'impertinence. En tout cas, les fans de Universe ont encire des raisons d'y croire, et c'est ce qui compte.</div><br /><br />Pour des DVD sans diffusion sur une chaine, ça parait quand même peu probable mais pourquoi pas.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/inago-u95.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p24801"></a>
+				<b class="postauthor">lyvii</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Mar 28 Déc 2010 13:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 28 Déc 2010 08:36<br /><b>Messages:</b> 4				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ah ça ça fait plaisir <img src="./images/smilies/icon_e_smile.gif" alt=":)" title="Sourire" /> J'espere que ça va se faire !</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/lyvii-u1751.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p24911"></a>
+				<b class="postauthor">Aegir</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 31 Déc 2010 11:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=901_1276343209.jpg" width="93" height="137" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 12 Juin 2010 11:22<br /><b>Messages:</b> 45				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">J'ai rejoins le groupe sur Facebook, et j'en suis le 5000ème membre!  Youhouhou!<br /> <img src="./images/smilies/icon_lol.gif" alt=":lol:" title="Rire" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #80BFFF">O'Neill : Un homme. Il est chauve et porte une chemise à manches courtes. Je crois qu'il s'appelle Homer. &quot;Sous la glace&quot;</span><br /><span style="color: #00BF40">O'neill: Mais vous oubliez Teal'c. C'est vrai, est-ce qu'il a une tête d'illuminé?  Mauvais exemple. </span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/aegir-u901.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p24931"></a>
+				<b class="postauthor">Riku Rion</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 31 Déc 2010 12:49&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=181_1267039772.jpg" width="100" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 24 Jan 2010 10:06<br /><b>Messages:</b> 226<br /><b>Localisation:</b> 91				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Je vous soutiens à fond, ne perdons pas espoir !  <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /></div>
+
+											<span class="postbody"><br />_________________<br /><!-- m --><a class="postlink" href="http://forum.stargateultimate.com/index.php">http://forum.stargateultimate.com/index.php</a><!-- m --></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/riku-rion-u181.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p24951"></a>
+				<b class="postauthor">mister-wonderful</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 31 Déc 2010 13:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 22 Aoû 2010 17:11<br /><b>Messages:</b> 174<br /><b>Localisation:</b> Nort-sur-Erdre, Loire-Atlantique				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">J'ai aussi rejoins le groupe Facebook et la pétition  <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #FF0000">1) Allez sur &quot;Google&quot;<br />2) tapez dans la barre de recherche &quot;trouver Chuck Norris<br />3) appuyez sur &quot;J'ai de la chance&quot;</span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p25081"></a>
+				<b class="postauthor">sneul</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: Coup de geule</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Lun 3 Jan 2011 22:37&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=1591_1291559998.jpg" width="124" height="57" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 5 Déc 2010 14:27<br /><b>Messages:</b> 23<br /><b>Localisation:</b> allier				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">il faut tous le faire, car tous sur ce site aimons suffisamment la série pour espérer la suite et surtout la fin, alors prend 1min et va d'un simple click sur facebook (5339) et la pétition (2900)</div>
+
+											<span class="postbody"><br />_________________<br />La limite n'a de frontière que l'imagination</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/sneul-u1591.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 14 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/coup-de-geule-t1891-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/dernieres-infos-f3.html">Dernières infos</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/news-f4.html">News</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: Aucun utilisateur enregistré et 0 invités</p>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Vous <strong>ne pouvez pas</strong> poster de nouveaux sujets<br />Vous <strong>ne pouvez pas</strong> répondre aux sujets<br />Vous <strong>ne pouvez pas</strong> éditer vos messages<br />Vous <strong>ne pouvez pas</strong> supprimer vos messages<br />Vous <strong>ne pouvez pas</strong> joindre des fichiers<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4" selected="selected">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Panneau de l’utilisateur &bull; M’enregistrer</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+<a href="./ucp.php?mode=login&amp;sid=1310a687f600f760ca9c68f1dcdef52f">Connexion</a> &nbsp;<a href="./ucp.php?mode=register&amp;sid=1310a687f600f760ca9c68f1dcdef52f">M’enregistrer</a>
+    </span>
+  <span class="right">
+  <a href="./faq.php?sid=1310a687f600f760ca9c68f1dcdef52f">FAQ</a>
+  &nbsp; &nbsp;<a href="./search.php?sid=1310a687f600f760ca9c68f1dcdef52f">Rechercher</a>  </span>
+</div>
+<span class="left"></span>
+<span class="right">Nous sommes le Ven 1 Juil 2011 17:55</span>
+
+<p class="searchbar">
+<span class="left"><a href="./search.php?search_id=unanswered&amp;sid=1310a687f600f760ca9c68f1dcdef52f">Voir les messages sans réponses</a> | <a href="./search.php?search_id=active_topics&amp;sid=1310a687f600f760ca9c68f1dcdef52f">Voir les sujets récents</a></span>
+</p>
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/?sid=1310a687f600f760ca9c68f1dcdef52f">Index du forum</a></p>
+<br />
+	<form method="post" action="./ucp.php?mode=register&amp;sid=1310a687f600f760ca9c68f1dcdef52f">
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<th height="25">Stargate Universe - Inscription</th>
+	</tr>
+	<tr>
+		<td class="row1" align="center">
+			<table width="90%" cellspacing="2" cellpadding="2" border="0" align="center">
+			<tr>
+									<td>
+						<span class="genmed"><br />En accédant à “Stargate Universe” (désigné ici par “nous”, “notre”, “nos”, “Stargate Universe”, “http://stargateuniverse.lndo.site/phpbb3”), vous acceptez d’être légalement responsable des conditions suivantes. Si vous n’acceptez pas d’être légalement responsable de toutes les conditions suivantes, alors n’accédez pas et/ou n’utilisez pas “Stargate Universe”. Nous pouvons modifier celles-ci à n’importe quel moment et nous ferons tout pour que vous en soyez informé, bien qu’il soit prudent de vérifier régulièrement celles-ci par vous-même. Si vous continuez d’utiliser “Stargate Universe” alors que des changements ont été effectués, vous acceptez d’être légalement responsable des conditions découlant des mises à jour et/ou modifications.<br />
+	<br />
+	Notre forum est de type phpBB (désigné ici par “ils”, “eux”, “leur”, “logiciel phpBB”, “www.phpbb.com”, “Groupe phpBB”, “Equipes phpBB”) qui est un script libre de forum, déclaré sous la licence “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (désigné ici par “GPL”) et qui peut être téléchargé depuis <a href="http://www.phpbb.com/">www.phpbb.com</a>. Le logiciel phpBB facilite seulement les discussions basées sur internet. Le groupe phpBB n’est pas responsable de ce que nous acceptons et/ou n’acceptons pas, comme contenu ou conduite permis. Pour de plus amples informations au sujet de phpBB, merci de consulter: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	<br />
+	Vous acceptez de ne pas publier de contenu abusif, obscène, vulgaire, diffamatoire, choquant, menaçant, à caractère sexuel ou autre qui peut transgresser les lois de votre pays, du pays où “Stargate Universe” est hébergé ou les lois internationales. Le faire peut vous mener à un bannissement immédiat et permanent, avec une notification à votre fournisseur d’accès à internet si nous le jugeons nécessaire. L’adresse IP de tous les messages est enregistrée pour aider au renforcement de ces conditions. Vous acceptez que “Stargate Universe” supprime, édite, déplace ou verrouille n’importe quel sujet lorsque nous estimons que cela est nécessaire. En tant qu’utilisateur, vous acceptez que toutes les informations que vous avez entrées soient stockées dans notre base de données. Bien que ces informations ne soient pas diffusées à une tierce partie sans votre consentement, ni “Stargate Universe”, ni phpBB ne pourront être tenus comme responsables en cas de tentative de piratage visant à compromettre les données.
+	<br /><br /></span>
+						<div align="center">
+							<input class="btnlite" type="submit" id="agreed" name="agreed" value="J’accepte ces conditions" /><br /><br />
+							<input class="btnlite" type="submit" name="not_agreed" value="Je n’accepte pas ces conditions" />
+						</div>
+					</td>
+							</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+		<input type="hidden" name="creation_time" value="1309542900" />
+<input type="hidden" name="form_token" value="499c822a92a810a141bca01166bdae7b0afd2e08" />
+	</form>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+	<img src="./cron.php?cron_type=tidy_search&amp;sid=1310a687f600f760ca9c68f1dcdef52f" width="1" height="1" alt="cron" />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

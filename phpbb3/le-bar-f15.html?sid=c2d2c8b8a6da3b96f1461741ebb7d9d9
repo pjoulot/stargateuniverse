@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; Le bar</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '';
+var base_url = '';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicit� Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Ven 18 Déc 2009 17:28</span>
+<span class="right">Nous sommes le Ven 18 Déc 2009 17:28</span>
+
+
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p>
+<br />	<div id="pageheader">
+		<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></h2>
+
+			</div>
+
+	<br clear="all" /><br />
+
+<div id="pagecontent">
+
+		<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 10 sujets ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+					</tr>
+		</table>
+			<table class="tablebg" width="100%" cellspacing="1">
+		<tr>
+			<td class="cat" colspan="5">
+				<table width="100%" cellspacing="0">
+				<tr class="nav">
+					<td valign="middle">&nbsp;</td>
+					<td align="right" valign="middle">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+							<th colspan="2">&nbsp;Sujets&nbsp;</th>
+						<th>&nbsp;Réponses&nbsp;</th>
+			<th>&nbsp;Vus&nbsp;</th>
+			<th>&nbsp;Dernier message&nbsp;</th>
+		</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read_hot.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Dim 22 Nov 2009 05:16" href="http://stargateuniverse.lndo.site/phpbb3/absente-pendant-une-tite-semaine-t66.html" class="topictitle">Absente pendant une tite semaine</a>
+											<p class="gensmall"> [ <img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Aller à la page" title="Aller à la page" />Aller à la page: <a href="http://stargateuniverse.lndo.site/phpbb3/absente-pendant-une-tite-semaine-t66.html">1</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/absente-pendant-une-tite-semaine-t66-10.html">2</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/absente-pendant-une-tite-semaine-t66-20.html">3</a> ] </p>
+											<p class="gensmall">Auteur: Kaorii</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">28</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">159</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mar 15 Déc 2009 18:25</p>
+					<p class="topicdetails">Baalounet											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Lun 14 Déc 2009 14:00" href="http://stargateuniverse.lndo.site/phpbb3/rda-embonpoint-de-flemmard-ou-malade-t92.html" class="topictitle">RDA : embonpoint de flemmard ou malade ?</a>
+											<p class="gensmall">Auteur: Kashinai</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">41</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Lun 14 Déc 2009 16:51</p>
+					<p class="topicdetails">pomme-q											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Dim 1 Nov 2009 17:27" href="http://stargateuniverse.lndo.site/phpbb3/votre-facebook-t40.html" class="topictitle">Votre Facebook</a>
+											<p class="gensmall">Auteur: <span style="color: #AA0000;" class="username-coloured">Shepard</span></p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">81</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Lun 14 Déc 2009 16:46</p>
+					<p class="topicdetails">pomme-q											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Ven 11 Déc 2009 20:05" href="http://stargateuniverse.lndo.site/phpbb3/sg1-t89.html" class="topictitle">SG1</a>
+											<p class="gensmall">Auteur: pomme-q</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">61</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Lun 14 Déc 2009 16:45</p>
+					<p class="topicdetails">pomme-q											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Jeu 10 Déc 2009 11:07" href="http://stargateuniverse.lndo.site/phpbb3/stargate-pe-1-t88.html" class="topictitle">Stargate PE-1</a>
+											<p class="gensmall">Auteur: Omizu</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">87</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Ven 11 Déc 2009 17:53</p>
+					<p class="topicdetails">Dr. Rush											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Mer 9 Déc 2009 10:57" href="http://stargateuniverse.lndo.site/phpbb3/dossier-cosplay-t85.html" class="topictitle">Dossier Cosplay</a>
+											<p class="gensmall">Auteur: Bulot</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">37</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Jeu 10 Déc 2009 09:06</p>
+					<p class="topicdetails">pomme-q											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Ven 27 Nov 2009 21:58" href="http://stargateuniverse.lndo.site/phpbb3/qu-ecouter-vous-comme-musique-t71.html" class="topictitle">Qu'écouter vous comme musique ?</a>
+											<p class="gensmall"> [ <img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Aller à la page" title="Aller à la page" />Aller à la page: <a href="http://stargateuniverse.lndo.site/phpbb3/qu-ecouter-vous-comme-musique-t71.html">1</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/qu-ecouter-vous-comme-musique-t71-10.html">2</a> ] </p>
+											<p class="gensmall">Auteur: Baalounet</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">16</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">108</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mer 9 Déc 2009 11:14</p>
+					<p class="topicdetails">pomme-q											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read_hot.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Ven 23 Oct 2009 10:43" href="http://stargateuniverse.lndo.site/phpbb3/d-ou-venez-vous-t25.html" class="topictitle">D'où venez vous ?</a>
+											<p class="gensmall"> [ <img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Aller à la page" title="Aller à la page" />Aller à la page: <a href="http://stargateuniverse.lndo.site/phpbb3/d-ou-venez-vous-t25.html">1</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/d-ou-venez-vous-t25-10.html">2</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/d-ou-venez-vous-t25-20.html">3</a> ] </p>
+											<p class="gensmall">Auteur: <span style="color: #AA0000;" class="username-coloured">Shepard</span></p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">27</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">195</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sam 28 Nov 2009 23:17</p>
+					<p class="topicdetails">Baalounet											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Sam 21 Nov 2009 12:21" href="http://stargateuniverse.lndo.site/phpbb3/planete-alsace-t63.html" class="topictitle">Planète Alsace</a>
+											<p class="gensmall"> [ <img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Aller à la page" title="Aller à la page" />Aller à la page: <a href="http://stargateuniverse.lndo.site/phpbb3/planete-alsace-t63.html">1</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/planete-alsace-t63-10.html">2</a> ] </p>
+											<p class="gensmall">Auteur: GiacoSG1</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">10</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">86</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Jeu 26 Nov 2009 14:13</p>
+					<p class="topicdetails">Kashinai											</p>
+				</td>
+			</tr>
+
+
+			<tr class="efekt">
+				<td class="row1" width="25" align="center"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+								<td class="row1">
+										 <a title="Posté: Dim 25 Oct 2009 08:51" href="http://stargateuniverse.lndo.site/phpbb3/que-pensez-vous-du-destiny-t28.html" class="topictitle">que pensez vous du destiny ???</a>
+											<p class="gensmall"> [ <img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Aller à la page" title="Aller à la page" />Aller à la page: <a href="http://stargateuniverse.lndo.site/phpbb3/que-pensez-vous-du-destiny-t28.html">1</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/que-pensez-vous-du-destiny-t28-10.html">2</a><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/que-pensez-vous-du-destiny-t28-20.html">3</a> ] </p>
+											<p class="gensmall">Auteur: ivans350000</p>
+				</td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">21</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">164</p></td>
+				<td class="row2" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Dim 15 Nov 2009 07:44</p>
+					<p class="topicdetails">ivans350000											</p>
+				</td>
+			</tr>
+
+				</table>
+			<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>1</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 10 sujets ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+					</tr>
+		</table>
+
+		<br clear="all" />
+</div>
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span> et 0 invités</p>
+
+
+<h4 class="notable">Légende</h4>
+<table cellspacing="3" cellpadding="0" id="legendaforum">
+			<tr>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread.png" width="35" height="40" alt="Nouveaux messages" title="Nouveaux messages" /></td>
+				<td class="gensmall">Nouveaux messages</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read.png" width="35" height="40" alt="Pas de nouveau message" title="Pas de nouveau message" /></td>
+				<td class="gensmall">Pas de nouveau message</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="./styles/polyethylene/imageset/announce_read.png" width="35" height="40" alt="Annonce" title="Annonce" /></td>
+				<td class="gensmall">Annonce</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread_hot.png" width="35" height="40" alt="Nouveaux messages [ Populaires ]" title="Nouveaux messages [ Populaires ]" /></td>
+				<td class="gensmall">Nouveaux messages [ Populaires ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read_hot.png" width="35" height="40" alt="Pas de nouveaux messages [ Populaires ]" title="Pas de nouveaux messages [ Populaires ]" /></td>
+				<td class="gensmall">Pas de nouveaux messages [ Populaires ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/sticky_read.png" width="35" height="40" alt="Post-it" title="Post-it" /></td>
+				<td class="gensmall">Post-it</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_unread_locked.png" width="35" height="40" alt="Nouveaux messages [ Verrouillés ]" title="Nouveaux messages [ Verrouillés ]" /></td>
+				<td class="gensmall">Nouveaux messages [ Verrouillés ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_read_locked.png" width="35" height="40" alt="Pas de nouveaux messages [ Verrouillés ]" title="Pas de nouveaux messages [ Verrouillés ]" /></td>
+				<td class="gensmall">Pas de nouveaux messages [ Verrouillés ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="./styles/polyethylene/imageset/topic_moved.png" width="35" height="40" alt="Sujet déplacé" title="Sujet déplacé" /></td>
+				<td class="gensmall">Sujet déplacé</td>
+			</tr>
+			</table>
+
+
+
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15" selected="selected">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+
+</body>
+</html>

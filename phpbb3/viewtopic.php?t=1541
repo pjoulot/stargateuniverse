@@ -1,0 +1,827 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="http://stargateuniverse.lndo.site/wp-content/themes/church_40/images/favicon.ico" />
+<style type="text/css">
+<!--
+#ombre {
+	height: 15px;
+	width: 960px;
+}
+-->
+</style>
+<title>Stargate Universe &bull; l'âge d'Atlantis et du Destiny ?????? : Le bar</title>
+
+<link rel="stylesheet" href="./styles/polyethylene/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+if (!name)
+{
+name = '_popup';
+}
+
+window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+return false;
+}
+
+function jumpto()
+{
+var page = prompt('Entrer le numéro de page où vous souhaitez aller.:', '1');
+var perpage = '10';
+var base_url = 'http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541.html';
+
+if (page !== null && !isNaN(page) && page > 0)
+{
+document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+popup(url, 760, 570, '_usersearch');
+return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+var parent = document.getElementById(id);
+if (!parent)
+{
+eval('parent = document.' + id);
+}
+
+if (!parent)
+{
+return;
+}
+
+var rb = parent.getElementsByTagName('input');
+
+for (var r = 0; r < rb.length; r++)
+{
+if (rb[r].name.substr(0, name.length) == name)
+{
+rb[r].checked = state;
+}
+}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a id="wrapheader" name="wrapheader" accesskey="t"></a>
+
+<div id="kontener">
+<div id="header"></div>
+<div id="ombre"></div>
+<div id="publicite" style="text-align:center;margin-bottom:5px"><script type="text/javascript"><!--
+google_ad_client = "pub-1317041983120128";
+/* StargateUniverse.Fr Publicité Forum Header */
+google_ad_slot = "4340228536";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div id="content">
+<div id="menu">
+  <span class="left"><a href="http://stargateuniverse.lndo.site">RETOUR A LA PAGE D'ACCUEIL</a>&nbsp;&nbsp;
+  </span>
+  <span class="right">
+  <a href="./faq.php">FAQ</a>
+    </span>
+</div>
+<span class="left">Dernière visite le Mar 9 Nov 2010 15:21</span>
+<span class="right">Nous sommes le Mar 9 Nov 2010 15:21</span>
+
+
+<br style="clear: both;" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p>
+<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541.html">l'âge d'Atlantis et du Destiny ??????</a></h2>
+
+	<p class="moderators">Modérateur: oneil7</p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 20 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 0 0 2px 0;">
+	<tr>
+		<td class="cat" style="text-align: center;">
+			<table cellspacing="0" style="margin: auto;">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+				<td class="nav" align="right" nowrap="nowrap">			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+			<tr>
+			<th>Auteur</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p19881"></a>
+				<b class="postauthor">flo83</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 5 Nov 2010 12:56&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=451_1274383189.jpg" width="140" height="140" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mer 28 Avr 2010 21:53<br /><b>Messages:</b> 59				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">alors moi je suis assez perdu en ce moment  je voudrai savoir l'âge de la cité d'Atlantis et celui du Destiny  et ver quand ces deux la ont étaient construit la période ( dinosaure  ou préhistoire )   ?<br /><br /><br />dites moi s'il vous plait merci</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/flo83-u451.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p19981"></a>
+				<b class="postauthor">shaxx</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Ven 5 Nov 2010 17:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Ven 2 Juil 2010 15:53<br /><b>Messages:</b> 5				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Les 2 sont de conception très vielle qui existé bien avant notre ère ^^, les batiments sont en ruine dû au temps <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Très content" /><br />+ de 10 000 ans en arrière, si je ne me trompe pas, pour<em> l'ascension des ANCIENS</em> alors en ce qui concerne le développement des équipements et batiss ?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/shaxx-u1011.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p20081"></a>
+				<b class="postauthor">Feng</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 6 Nov 2010 04:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Sam 29 Mai 2010 15:55<br /><b>Messages:</b> 7				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Ouais Atlantis a 10.000 ans, le Destiny plusieurs millions d'années mais on ne sait pas encore combien.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/feng-u781.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p20151"></a>
+				<b class="postauthor">time2fly</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 6 Nov 2010 11:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=92_1260039548.jpg" width="115" height="116" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Jeu 12 Nov 2009 16:55<br /><b>Messages:</b> 111				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">les Ancients ont quitté Atlantis il y a 10.000 ans, ce qui induit qu'elle a plus de 10.000 ans. sachant qu'ils ont lutté un siècle contre les Wraith, et tenant compte qu'ils ont créer les Wraith par erreur un créant une colonie sur une planète ayant l'insecte Iratus qui a évolué par sa nutritions d'humains, l'age d'Atlantis est sans doute bien plus important. une évolutions de ne fait pas du jour au lendemain. et surtout l'ont sais qu'Atlantis était sur terre avant qu'il ne rejoigne pégase.</div>
+
+											<span class="postbody"><br />_________________<br /><img src="http://www.replikultes.net/medias/uploads/films/stargate/stargate_02.jpg" alt="Image" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/time2fly-u92.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p20361"></a>
+				<b class="postauthor">Dr. Rush</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Sam 6 Nov 2010 21:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=115_1262274591.jpg" width="67" height="100" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 6 Déc 2009 09:46<br /><b>Messages:</b> 82<br /><b>Localisation:</b> pas de calais				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">je pense que tout est possible. Apres tout on apprends qu'ils ont trouver le moyen d'aller sur le destiny grace a la base de données d'Atlantis. Peut etre que le destiny a été conçu sur atlantis quand elle était encore sur terre. le fait qu'atlantis soit plus évoluée technologiquement peut s'expliquer de plusieures façon: <br />si c'est le lieu de création du destiny il est normale qu'elle soit evolué, on ne construit pas des bmw chez renault par exemple.<br />ou alors le destiny est parti seul et sans equipage alors que les anciens sont restés sur atlantis et ont donc pu continuer de l'ameliorer au fil du temps.</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #0000BF"><em>&quot;Le Destiny, le design est clairement Ancien...<br />Ce vaisseau est peut-être la plus importante découverte de l'humanité depuis la porte des étoiles&quot;</em></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/dr-rush-u115.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p20401"></a>
+				<b class="postauthor">mister-wonderful</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 7 Nov 2010 12:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 22 Aoû 2010 17:11<br /><b>Messages:</b> 57<br /><b>Localisation:</b> Nort-sur-Erdre, Loire-Atlantique				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Oui Dr.Rush (celui du forum) je pense que ta derniere hypothese est probable. meme que peut etre(mais alors la on peut vraiment pas etre sur) le Destiny est plus évolué que Atlantis. Attantion, c'est probable et je crois meme pouvoir fournir une explication:<br />- si le Destiny utilise des armes a énergie et pas des drones, c'est parceque il ne savaient pas si ils auraient assez de munitions<br />-si le Destiny n'a pas d'hyperpropulsion et n'a &quot;que&quot; un générateur FTL, c'est peut etre parceque l'hyperpropulsion tomberait en panne, la preuve avec Atlantis, qui, au bout de 100.000 petites années tombe en panne au milieu de nulle part, là ou un générateur FTL tient plusieurs millions d'années sans la révision Midas <img src="./images/smilies/icon_lol.gif" alt=":lol:" title="Rire" /> <br />-le Destiny pouvait aussi pendant un temps etre mis a jour quand il était a portée de Atlantis, qui, je vous rappelle , est alimentée par des E2PZ.<br />-si le Destiny est aussi en apparence vieux, c'est parceque changer le design nescessiterais des travaux trop gros<br />-il faut aussi tenir compte de la puissance quasi-phénoménale du bouclier du Destiny, la ou celui du Dédale ne tient pas la route face a une éruption solaire, pourtant armés d'un E2PZ( révisez votre histoire de SGA  <img src="./images/smilies/icon_razz.gif" alt=":P" title="Tire la langue" /> )<br />-il y a aussi la puissance des armes d'appoint, et surtout celle de l'arme principale, qui fait déguerpir en 2 sec des aliens super-évolués<br />- et aussi la puissance des batteries du Destiny, qui ne fonctionnent en ce moment qu'à 40 pourcents de leurs capacité max.<br /><br />Si le Destiny était plus vieux, pourquoi les Anciens auraient abandonnés une technologie pourtant très satisfaisante?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p20441"></a>
+				<b class="postauthor">maxence</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 7 Nov 2010 13:20&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://c0658142.cdn.cloudfiles.rackspacecloud.com/043e1524ca89216b504f96f18dd57a27dcd8a709_96s.jpg" width="96" height="96" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 8 Juin 2010 15:34<br /><b>Messages:</b> 43<br /><b>Localisation:</b> albertville, savoie				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">alor att il faut mettre au clair:<br />- Atlantis et plus jeune que le Destiny, comme le destiny et passer par pegase, a se moment les anciens on trouve un grans potentielle a cette galaxie et il y sont aller donc il on a se moment la creer Atlantis.<br />- le Destiny n'ais pas allimenter par de E2PZ comme il sont dure a trouver dans les autre galaxie, donc il on trouver un source d'energie qui de trouve partout dans l'univer (les etoiles).<br />-ils n'a pas d'hyperpropulsion, comme il sort et rentre souvent du sub-espace donc l'hyperpropulsion n'aurais pas resister au bout d'un moment.<br />-les drones tout le monde ne sais pas les creer donc le seule moins etait les arme a energie.<br /><br /><br /><span style="font-size: 150%; line-height: normal">- le Destiny a etait creer de maniere a avoir tout se qui faut partout (l'eau, la sable: carbonnate de calcium, l'energie: les etoiles).</span></div>
+
+											<span class="postbody"><br />_________________<br />continue bien votre voyage sur le detiny et bonne episode.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/maxence-u871.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p20491"></a>
+				<b class="postauthor">mister-wonderful</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 7 Nov 2010 13:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 22 Aoû 2010 17:11<br /><b>Messages:</b> 57<br /><b>Localisation:</b> Nort-sur-Erdre, Loire-Atlantique				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">En effet, il faut avouer que Atlantis n'a pas fait beaucoup de balade dans l'espace. Donc l'hyperespace est justifié <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Clin d’oeil" /> <br /><br />Mais apres, pourquoi ne pas avoir gardé la technologie de l'exploitation dees étoiles comme sources d'énergie? Bon, c'est vrai que pour Atlantis ca devait etre chaud, vu son poids et la taille du bouclier qu'elle nescessiterait. Mais pour les vaisseaux comme l' Aurore ou les satellites ancien? Pourquoi mettre un E2PZ, alors qu'il pourraient avoir une ressource qui non-seulement serait presque illimité, mais qui en plus les protegerait des Wraith, vu que leurs vaisseaux n'ont pas de bouclier, et donc, bruleraient en moins de 2 a s'approcher trop du soleil?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p20501"></a>
+				<b class="postauthor">mister-wonderful</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 7 Nov 2010 13:47&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Dim 22 Aoû 2010 17:11<br /><b>Messages:</b> 57<br /><b>Localisation:</b> Nort-sur-Erdre, Loire-Atlantique				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">Oh et j'oubliais, il y a aussi la technologie de test et de controle de la pensée du Destiny, qui, il me semble, n'existe pas sur Atlantis.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/mister-wonderful-u1121.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1" style="margin: 2px 0 2px 0;">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p20511"></a>
+				<b class="postauthor">maxence</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%" style="vertical-align: middle;"><div style="float: left;">&nbsp;<b>Sujet du message:</b> Re: l'âge d'Atlantis et du Destiny ??????</div><div style="float: right;"><img src="./styles/polyethylene/imageset/icon_post_target.png" width="13" height="15" alt="Message" title="Message" /><b>Posté:</b> Dim 7 Nov 2010 13:48&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/polyethylene/imageset/fr/icon_user_offline.png" alt="Hors ligne" title="Hors ligne" /></td>
+				</tr>
+							<tr>
+					<td><img src="http://c0658142.cdn.cloudfiles.rackspacecloud.com/043e1524ca89216b504f96f18dd57a27dcd8a709_96s.jpg" width="96" height="96" alt="Avatar de l’utilisateur" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Inscription:</b> Mar 8 Juin 2010 15:34<br /><b>Messages:</b> 43<br /><b>Localisation:</b> albertville, savoie				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+
+						<div class="postbody">pour le satelite il etait fixe alor que pour pour avoir l'energie il fallais aller aller dans l'etoile, et pour les vaisseau de type aurore il les on cree quand il atait en combat avec les wraiths donc pas le temps d'aller a une etoile pour prendre l'energie et repartir au combat</div>
+
+											<span class="postbody"><br />_________________<br />continue bien votre voyage sur le detiny et bonne episode.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><a href="#wrapheader"><img src="./styles/polyethylene/theme/images/icon_up.png" alt="Haut" /></a></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/maxence-u871.html"><img src="./styles/polyethylene/imageset/fr/icon_user_profile.png" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> sur <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 20 messages ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Cliquer pour aller à la page…">Aller à la page</a> <strong>1</strong><span class="page-sep">, </span><a href="http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541-10.html">2</a> &nbsp;<a href="http://stargateuniverse.lndo.site/phpbb3/l-age-d-atlantis-et-du-destiny-t1541-10.html">Suivante</a></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<p class="breadcrumbs">
+<img src="./styles/polyethylene/theme/images/bread.png" alt="" />
+<a href="http://stargateuniverse.lndo.site/phpbb3/">Index du forum</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/stargate-universe-et-ses-visiteurs-f13.html">Stargate Universe et ses visiteurs</a> &#187; <a href="http://stargateuniverse.lndo.site/phpbb3/le-bar-f15.html">Le bar</a></p><h4 class="notable">Qui est en ligne</h4>
+<p class="notable">Utilisateurs parcourant ce forum: Aucun utilisateur enregistré et 0 invités</p>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Vous <strong>ne pouvez pas</strong> poster de nouveaux sujets<br />Vous <strong>ne pouvez pas</strong> répondre aux sujets<br />Vous <strong>ne pouvez pas</strong> éditer vos messages<br />Vous <strong>ne pouvez pas</strong> supprimer vos messages<br />Vous <strong>ne pouvez pas</strong> joindre des fichiers<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="http://stargateuniverse.lndo.site/phpbb3/viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Aller à:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Sélectionner un forum</option>
+		<option value="-1">------------------</option>			<option value="3">Dernières infos</option>
+					<option value="4">&nbsp; &nbsp;News</option>
+					<option value="5">&nbsp; &nbsp;Spoilers</option>
+					<option value="6">&nbsp; &nbsp;Rumeurs</option>
+					<option value="7">Ressources</option>
+					<option value="8">&nbsp; &nbsp;Episodes saison 1</option>
+					<option value="21">&nbsp; &nbsp;Episodes saison 2</option>
+					<option value="9">&nbsp; &nbsp;Personnages / Acteurs</option>
+					<option value="10">&nbsp; &nbsp;Dossiers</option>
+					<option value="11">Médias</option>
+					<option value="12">&nbsp; &nbsp;Musiques</option>
+					<option value="13">Stargate Universe et ses visiteurs</option>
+					<option value="14">&nbsp; &nbsp;Présentation des nouveaux inscrits</option>
+					<option value="15" selected="selected">&nbsp; &nbsp;Le bar</option>
+					<option value="16">&nbsp; &nbsp;Le site et ses problèmes techniques</option>
+					<option value="17">&nbsp; &nbsp;Idées d'innovations</option>
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Aller" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 0;"></div>
+<br/>
+<div style="text-align:center">
+<script type='text/javascript'><!--//<![CDATA[
+	var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+	var m3_r = Math.floor(Math.random()*99999999999);
+	if (!document.MAX_used) document.MAX_used = ',';
+	document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	document.write ("?nodis=1&amp;zoneid=8399");
+	document.write ('&amp;cb=' + m3_r);
+	if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	document.write ("&amp;loc=" + escape(window.location));
+	if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	if (document.context) document.write ("&context=" + escape(document.context));
+	if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<br/>
+
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+</div>
+<div id="stopka">
+<span id="theme">Theme designed by <a href="http://stylerbb.net/">stylerbb.net</a> & <a href="http://www.programosy.pl">programy</a> &copy; 2008</span><br />
+Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Traduction par: <a href="http://forums.phpbb-fr.com">phpBB-fr.com</a><br /><a href="http://www.phpbb-seo.com/" title="Optimisation du R&eacute;f&eacute;rencement"><img src="http://stargateuniverse.lndo.site/phpbb3/images/phpbb-seo.png" alt="phpBB SEO"/></a>	<br />Heures au format UTC 	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-349423-20");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>
